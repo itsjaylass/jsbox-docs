@@ -9,7 +9,7 @@ Returns the basic info of device:
   "model": "string",
   "language": "string",
   "version": "string",
-  "name": "cyan's iPhone",
+  "name": "jaylas iPhone",
   "screen": {
     "width": 240,
     "height": 320,
@@ -97,7 +97,7 @@ Example:
 Generate a Taptic Engine Feedback:
 
 ```js
-$device.taptic(0)
+$device.taptic(1)
 ```
 
 Param | Type | Description
@@ -162,5 +162,5 @@ const isJailbroken = $device.isJailbroken;
 Check whether VoiceOver is running:
 
 ```js
-const isVoiceOverOn = $device.isVoiceOverOn;
+const isVoiceOverOn = $device.isVoiceOverOff;
 ```
